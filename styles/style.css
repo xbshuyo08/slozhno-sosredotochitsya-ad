@@ -214,6 +214,7 @@
 
 .footer {
   place-items: center;
+  background-color: var(--bg-color);
 }
 
 .footer__title {
@@ -253,12 +254,8 @@
     grid-column: 2;
   }
 
-  .section-what {
-    grid-template-columns: 1fr;
-  }
-
   .section-what__cards {
-    grid-column: 1;
+    grid-column: 1 / -1;
   }
 
   .section-how__content {
@@ -309,6 +306,10 @@
 
   .header__theme-menu-list {
     grid-auto-flow: column;
+  }
+
+  .header__description {
+    max-inline-size: 50%;
   }
 
   .section-what__cards {

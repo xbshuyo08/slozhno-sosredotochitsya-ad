@@ -223,6 +223,10 @@
 }
 
 @media (width >= 768px) {
+  .header {
+    margin-block-end: 60px;
+  }
+
   .header,
   .footer {
     min-block-size: 768px;

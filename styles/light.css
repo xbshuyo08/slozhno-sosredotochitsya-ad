@@ -6,12 +6,12 @@
   --accent-color: #ff8dcb;
   --title-color: #ffc2e6;
   --section-title-color: #353430;
+  --title-decor-color: var(--text-color);
   --background-image: url('../images/cover-image-light.png');
 }
 
 .theme-light .page {
   background-color: var(--bg-color);
-  background-image: var(--background-image);
   color: var(--text-color);
 }
 
@@ -27,6 +27,7 @@
     --accent-color: #ff8dcb;
     --title-color: #ffc2e6;
     --section-title-color: #353430;
+    --title-decor-color: var(--text-color);
     --background-image: url('../images/cover-image-light.png');
   }
 

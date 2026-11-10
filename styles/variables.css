@@ -6,6 +6,7 @@
   --accent-color: #ff0070;
   --title-color: #db00ff;
   --section-title-color: #ff0070;
+  --title-decor-color: var(--bg-color);
   --background-image: url('../images/cover-image-dark.png');
   --page-padding: 10px;
   --section-gap: 50px;
